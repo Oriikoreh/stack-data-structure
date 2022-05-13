@@ -52,3 +52,8 @@ Stack pop(Stack p){ // Remove an item from the stack
     }
     return p;
 }
+
+Stack clearStack(Stack p){ // Clear stack (top = 0)
+    p.top = SIGNAL;
+    return p;
+}
