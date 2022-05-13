@@ -17,4 +17,12 @@ typedef struct{
     unsigned char items[MAX_SIZE];
 }Stack;
 
+Stack createStack();
+bool empty(Stack);
+bool full(Stack);
+unsigned char accessTop(Stack);
+Stack push(Stack, unsigned char);
+Stack pop(Stack);
+Stack clearStack(Stack);
+
 #endif //STACK_H_INCLUDED
