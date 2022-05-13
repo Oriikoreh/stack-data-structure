@@ -21,3 +21,11 @@ bool empty(Stack p){ // Returns true if stack is empty
     }
     return empty;
 }
+
+bool full(Stack p){ // Returns true if stack is full
+    bool full = false;
+    if(p.top == MAX_SIZE - 1){
+        full = true;
+    }
+    return full;
+}
