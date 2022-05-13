@@ -29,3 +29,11 @@ bool full(Stack p){ // Returns true if stack is full
     }
     return full;
 }
+
+unsigned char accessTop(Stack p){ // Returns the value at the top
+    unsigned char ch = GHOST;
+    if(!empty(p)){
+        ch = p.items[p.top];
+    }
+    return ch;
+}
