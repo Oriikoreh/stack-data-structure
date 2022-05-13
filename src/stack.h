@@ -14,7 +14,7 @@
 
 #define MAX_SIZE 10
 #define SIGNAL 0
-#define GHOSTH 36
+#define GHOST 36
 
 typedef struct{
     int top;
