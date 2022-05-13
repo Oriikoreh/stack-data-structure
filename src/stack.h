@@ -12,5 +12,9 @@
 #define SIGNAL 0
 #define GHOSTH 36
 
+typedef struct{
+    int top;
+    unsigned char items[MAX_SIZE];
+}Stack;
 
 #endif //STACK_H_INCLUDED
