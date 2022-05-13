@@ -45,3 +45,10 @@ Stack push(Stack p, unsigned char ch){ // Put an item on the stack
     }
     return p;
 }
+
+Stack pop(Stack p){ // Remove an item from the stack
+    if(p.top != SIGNAL){
+        p.top--;
+    }
+    return p;
+}
