@@ -13,3 +13,11 @@ Stack createStack(){ // Create empty stack
     p.items[0] = MAX_SIZE - 1;
     return p;
 }
+
+bool empty(Stack p){ // Returns true if stack is empty
+    bool empty = false;
+    if(p.top == SIGNAL){
+        empty = true;
+    }
+    return empty;
+}
