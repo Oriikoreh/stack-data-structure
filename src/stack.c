@@ -37,3 +37,11 @@ unsigned char accessTop(Stack p){ // Returns the value at the top
     }
     return ch;
 }
+
+Stack push(Stack p, unsigned char ch){ // Put an item on the stack
+    if(p.top != p.items[0]){
+        p.top++;
+        p.items[p.top] = ch;
+    }
+    return p;
+}
