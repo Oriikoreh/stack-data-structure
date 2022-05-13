@@ -7,4 +7,9 @@
 
 #include "stack.h"
 
-
+Stack createStack(){ // Create empty stack
+    Stack p;
+    p.top = SIGNAL;
+    p.items[0] = MAX_SIZE - 1;
+    return p;
+}
