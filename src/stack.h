@@ -8,6 +8,9 @@
 #ifndef STACK_H_INCLUDED
 #define STACK_H_INCLUDED
 
+#define MAX_SIZE 10
+#define SIGNAL 0
+#define GHOSTH 36
 
 
 #endif //STACK_H_INCLUDED
